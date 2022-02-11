@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+main {
+  background-color: #080c23;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.block {
+  background-color: #1b1f3c;
+  padding: 30px 15px;
+  border-radius: 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.goldBox {
+  padding: 30px 15px;
+  background-image: linear-gradient(to right,rgb(242, 194, 101), rgb(247, 180, 79));
+  border-radius: 25px;
+} 
+
+.firstBlcok {
+  width: 70%;
+}
+
+.secondBlock {
+  width: 100%;
+  background-color: #1b1f3c;
+  border-radius: 25px;
+  margin: 15px 20px;
+  height: 300px;
+}
+
+.goldenBoxFooter {
+  border-bottom: 5px solid rgba(0, 0, 0, 0.281);
+}
+
+.connectBtn {
+  position: absolute;
+  bottom: 20px;
+  background-color: #f8b94b;
+  width: 110px;
+  height: 30px;
+}
+
+.navBtn {
+  background-color: #f8b94b;
+  width: 110px;
+  height: 30px;
+}
+
+.navBar {
+  background-color: #1b1f3c;
+  width: 100%;
+  margin: 0;
+  display: none;
+}
+
+#dropdown-basic {
+  background-color: #1b1f3c !important;
+  border: .5px solid #5f669a !important;
+}
+
+#dropdown-basic:focus {
+  outline: none !important;
+}
+
+#dropMenu {
+  padding: 0px !important;
+  background: #080c23;
+}
+
+#dropMenu:hover {
+  background: #080c23;
+}
+
+.link {
+  color: white !important;
+}
+
+.link:hover {
+  color: #080c23 !important;
+}
+
+@media (max-width: 998px) {
+   .main-content {
+     flex-direction: column;
+   }
+
+   .firstBlcok {
+    width: 97%;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .secondBlock {
+    width: 97%;
+    margin: 20px 0px;
   }
-  to {
-    transform: rotate(360deg);
+
+}
+
+@media (max-width: 872px) {
+  .firstBlcok {
+    width: 97%;
+    margin: 0px 10px;
+  }
+
+  .secondBlock {
+    width: 97%;
+    margin: 15px 10px;
+  }
+
+  .dashboard-header {
+    display: none;
+  }
+
+  .navBar {
+    display: flex;
   }
 }

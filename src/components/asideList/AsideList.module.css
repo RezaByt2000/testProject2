@@ -1,0 +1,62 @@
+aside {
+    width: 110%;
+    height: 100vh;
+    background: #1b1f3c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.listItemBox {
+    margin:50px 20px 0px 0px;
+    width: 100%;
+}
+
+.item {
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 8px;
+    width: 105%;
+}
+
+.item:focus {
+    background-color: rgba(181, 181, 181, 0.194);
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    padding: 8px;
+    width: 105%;
+    color: #f8b94b;
+}
+
+.listItemBox p:hover {
+    color: #f8b94b;
+}
+
+header {
+    color: #f8b94b;
+    font-size: 2.3rem;
+}
+
+@media (max-width: 1200px) {
+    .item {
+        font-size: .9rem;
+        font-weight: 500;
+        color: white;
+        padding: 8px;
+        width: 105%;
+    }
+
+    header {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 872px) {
+   aside {
+       display: none;
+   }
+}

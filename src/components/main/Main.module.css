@@ -1,0 +1,30 @@
+.mainContent {
+    width: 100%;
+    margin-left: 45px;
+}
+
+.coinLogo {
+    width:40px;
+    margin-right: 15px;
+}
+
+.blockOne {
+    background-color: red;
+}
+
+.title {
+    color: #f8b94b;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    h5 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 872px) {
+    .mainContent {
+        margin: 0px 0px;
+    }
+ }
